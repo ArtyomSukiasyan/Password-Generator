@@ -22,7 +22,7 @@ clipboardEl.addEventListener("click", () => {
   }
 
   navigator.clipboard.writeText(password);
-  alert("Copied the text: ");
+  alert("Copied the text: ", password);
 });
 
 generateEl.addEventListener("click", () => {
